@@ -25,5 +25,5 @@ jobs:
       - name: Push Docker image to DockerHub (dev)
         run: |
           echo "$DOCKERHUB_PASS" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-          docker push barryd237/test:dev
+          docker push jishajasmine24/test:dev
 
